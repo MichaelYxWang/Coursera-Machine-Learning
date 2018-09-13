@@ -16,7 +16,6 @@ J = 0;
 % X.shape = [m, 2]
 % theta.shape = [2, 1]
 
-m = size(X, 1);
 J = sum((X*theta - y).^2)/(2*m);
 
 
